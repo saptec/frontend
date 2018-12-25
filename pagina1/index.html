@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SISTEMA</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/datatables.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-info">
+        <a href="#" class="navbar-brand"><i class="fas fa-dove fa-1x"></i> LOGO</a>
+    </nav>
+    <div class="container">
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="my_modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Cadastra</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Texto do corpo do modal, é aqui.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card mt-2 border-0 ">
+            <div class="row p-2">
+                <div class="col-md"><button class="btn btn-primary" data-toggle="modal" data-target="#my_modal"><i class="fas fa-plus"></i> Adicionar</button></div>
+                <div class="col-md"><input type="text" placeholder="Pesquisar..." class="form-control input_pesquisar"></div>
+            </div>
+            <div class="text-dark bg-light card-body mt-2">
+                <table class="table display">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nome</th>
+                            <th>URL</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>teste1</td>
+                            <td>wwww.teste1.com</td>
+                            <td>exv</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>teste2</td>
+                            <td>wwww.teste2.com</td>
+                            <td>exv</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>teste3</td>
+                            <td>wwww.teste3.com</td>
+                            <td>exv</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>teste4</td>
+                            <td>wwww.teste4.com</td>
+                            <td>exv</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/hullabaloo.js"></script>
+    <script src="js/datatables.js"></script>
+    <script src="js/config_dts.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

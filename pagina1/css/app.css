@@ -1,0 +1,4 @@
+/* tabela configuração*/
+.dataTables_filter label {
+    display: none;
+}
