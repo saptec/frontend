@@ -1,0 +1,11 @@
+git --version
+git config --global user.name "seu-nome"
+git config --global user.email "seu-email"
+git clone https://github.com/saptec/frontend.git
+
+git init
+git status
+git add .
+git add *
+git commit -m "primeiro commit"
+git push
